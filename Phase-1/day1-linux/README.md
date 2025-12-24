@@ -22,4 +22,4 @@ ps, top, kill
 - Why log analysis is important in security
 
 ## Screenshots
-
+![Screenshort](images/img1.png)
