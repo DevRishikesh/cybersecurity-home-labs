@@ -23,8 +23,12 @@ ps, top, kill
 
 ## Screenshots
 ![Screenshort](images/img1.png)
+
 ![Screenshort](images/img2.png)
+
 ![Screenshort](images/img3.png)
+
 ![Screenshort](images/img4.png)
+
 ![Screenshort](images/img5.png)
-![Screenshort](images/img6.png)
+
