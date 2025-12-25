@@ -51,10 +51,10 @@ As part of understanding SSH security from both attacker and defender perspectiv
 
 ## Screenshots
 
-![screenshot](img1.png)
+![screenshot](images/img1.png)
 
-![screenshot](img2.png)
+![screenshot](images/img2.png)
 
-![screenshot](img3.png)
+![screenshot](images/img3.png)
 
-![screenshot](img4.png)
+![screenshot](images/img4.png)
