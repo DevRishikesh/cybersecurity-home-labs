@@ -30,4 +30,4 @@ Linux treats files and directories differently. Backups of security configs must
 
 
 ## Screenshots
-(Add screenshots)
+will be added soonnnn my nigga :}
