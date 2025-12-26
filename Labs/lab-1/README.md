@@ -36,3 +36,11 @@
 * **Visibility of Data:** Anyone positioned on the same local network (LAN) can easily capture and read this traffic using standard tools like Wireshark.
 * **Packet Analysis:** I learned how to use Wireshark filters to isolate specific actions (like a POST request) and how to use "Follow TCP Stream" to view the application-layer data in a human-readable format.
 * **Security Implication:** This lab reinforced why protocols like HTTPS (TLS/SSL) are mandatory for any application handling user data; without encryption, there is zero confidentiality.
+
+## Screenshots
+
+![screenshots](images/img1.png)
+
+![screenshots](images/img2.png)
+
+
