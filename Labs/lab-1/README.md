@@ -25,7 +25,7 @@
     * Clicked the "Login" button to transmit the data.
 3.  **Captured & Filtered:**
     * Stopped the Wireshark capture immediately after the login attempt to minimize noise.
-    * Applied the display filter `http"` to isolate the packet containing the form submission.
+    * Applied the display filter `http` to isolate the packet containing the form submission.
 4.  **Analyzed the Payload:**
     * Identified the HTTP POST request packet.
     * Right-clicked the packet and selected **Follow > TCP Stream** to reconstruct the entire conversation.
