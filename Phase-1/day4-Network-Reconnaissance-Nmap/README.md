@@ -32,6 +32,9 @@ nmap <mint-ip>
 **Observation:**
 The system appeared secure because no network services were exposed to the network.
 
+**Screenshot:**
+![screenshot](images/Initial-scan.png)
+
 ---
 
 ### Step 2: SYN Scan for Stealth Reconnaissance
@@ -50,6 +53,9 @@ sudo nmap -sS <mint-ip>
 * `-sS` performs a **half-open scan**.
 * This method is faster and harder to detect than a full connect scan.
 * Requires `root` privileges.
+
+**Screenshot:**
+![screenshot](images/syn-scan.png)
 
 ---
 
@@ -79,6 +85,13 @@ sudo nmap -sS <mint-ip>
 * **Port 22/tcp** was open.
 * **SSH service** was detected.
 * Service version information was revealed using `-sV`.
+
+**Screenshots:**
+![screenshot](images/after-ssh-1.png)
+
+![screenshot](images/after-ssh-2-sV.png)
+
+![screenshot](images/after-ssh-2-sS.png)
 
 ---
 
