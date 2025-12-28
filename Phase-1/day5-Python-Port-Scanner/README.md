@@ -19,7 +19,7 @@ python3 port_scanner.py <target_ip>
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. Takes the target IP address as a command-line argument
 2. Validates the IP format (IPv4)
 3. Iterates through ports 1–1000
@@ -28,21 +28,21 @@ python3 port_scanner.py <target_ip>
 
 ---
 
-## 🧠 Security Relevance
+## Security Relevance
 
-### 🔴 Attacker Perspective
+### Attacker Perspective
 - Identify running services
 - Discover potential vulnerabilities
 - Plan exploitation strategies
 
-### 🔵 Defender Perspective
+### Defender Perspective
 - Audit exposed services
 - Reduce attack surface
 - Detect unnecessary open ports
 
 > Port scanning is one of the first steps in real-world cyber attacks and security assessments.
 
-## 🧪 Concepts Learned
+## Concepts Learned
 - Python basics for security scripting
 - Socket programming
 - Network ports and services
