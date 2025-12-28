@@ -33,6 +33,7 @@ nmap <mint-ip>
 The system appeared secure because no network services were exposed to the network.
 
 **Screenshot:**
+
 ![screenshot](images/Initial-scan.png)
 
 ---
@@ -55,6 +56,7 @@ sudo nmap -sS <mint-ip>
 * Requires `root` privileges.
 
 **Screenshot:**
+
 ![screenshot](images/syn-scan.png)
 
 ---
@@ -87,6 +89,7 @@ sudo nmap -sS <mint-ip>
 * Service version information was revealed using `-sV`.
 
 **Screenshots:**
+
 ![screenshot](images/after-ssh-1.png)
 
 ![screenshot](images/after-ssh-2-sV.png)
