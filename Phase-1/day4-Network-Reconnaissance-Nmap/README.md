@@ -1,11 +1,11 @@
 # Day 4 – Network Reconnaissance Using Nmap
 
-## 🛡️ Objective
+## Objective
 To understand how enabling or disabling network services changes a system’s visibility and attack surface. This lab involves scanning a Linux Mint machine from a Kali Linux attacker machine using **Nmap** to observe the differences between a secure and an intentionally vulnerable state.
 
 ---
 
-## 💻 Lab Environment
+## Lab Environment
 - **Attacker Machine:** Kali Linux
 - **Target Machine:** Linux Mint
 - **Virtualization Platform:** Oracle VirtualBox
@@ -14,7 +14,7 @@ To understand how enabling or disabling network services changes a system’s vi
 
 ---
 
-## 📝 Walkthrough
+## Walkthrough
 
 ### Step 1: Initial Scan (Before Enabling Any Service)
 **Context:** The Linux Mint system was scanned from Kali Linux before enabling SSH or modifying firewall rules.
@@ -98,7 +98,7 @@ sudo nmap -sS <mint-ip>
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 ### Nmap Scan Types
 1.  **Default Scan (`nmap`)**
@@ -120,10 +120,10 @@ sudo nmap -sS <mint-ip>
 
 ---
 
-## 🛡️ Security Insight
+## Security Insight
 This lab demonstrated how small configuration changes can significantly impact system security. Disabling unnecessary services and enforcing firewall rules are critical for hardening systems.
 
-## 🧰 Tools Used
+## Tools Used
 * **Nmap**
 * **OpenSSH Server**
 * **UFW Firewall**
